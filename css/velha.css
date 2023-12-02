@@ -119,11 +119,8 @@ nav {
 /* -----------------------------------------Página jogo da velha-------------------------------------------------- */
 .corpo{
     text-align: center;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+    font-family: 'Poppins', sans-serif;
+} 
 #jogo{
     width: 603px;
     height: 603px;    
@@ -140,7 +137,7 @@ nav {
     font-size: 30;
     font-style: italic;
     font-weight: bold;
-    color: #1E62D0;
+    color: #f5ff00;
 }
 .linha{
     height: 200px;
@@ -153,17 +150,17 @@ nav {
     float: left;
 }
 .xis{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     color: white;
     font-weight: bold;
 }
 .bola{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     color: white;
     font-weight: bold;
 }
 .velha{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     color: white;
     font-weight: bold;
 }
@@ -183,14 +180,12 @@ input[type = button], input[type = submit], input[type = reset] {
     border: solid #337FED 1px;
     display: inline-block;
     cursor: pointer;
-    text-align: center;
 }
 
 input[type = button]:hover {
     background: #1E62D0;
     background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
     text-decoration: none;
-    text-align: center;
 }
 #casa0, #casa1, #casa2, #casa3, #casa4, #casa5{
     border-bottom: solid 1px;

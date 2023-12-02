@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+function startGame(gameName) {
+    
+    window.location.href = gameName + '.html';
+}
 
-
-document.getElementById('redirecionar-btn').addEventListener('click', function() {
-    window.location.href = 'jogos.html';
-});

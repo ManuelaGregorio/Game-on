@@ -93,8 +93,6 @@ if(lGanhou || lAcabou) {
     document.getElementById("resposta").innerHTML = sResposta;
     //muda cor da letra
     document.getElementById("resposta").style.color = "#1E62D0";
-    //muda o tamanho do texto
-    document.getElementById("resposta").style.fontSize = "xx-large";
     //window.confirm(sResposta)
     document.getElementById("resposta").style.fontFamily = 'Poppins, sans serif';
     }
