@@ -8,5 +8,5 @@ Um projeto realizado no segundo semestre do Curso Técnico em Desenvolvimento de
 ![image](https://github.com/ManuelaGregorio/Game-on/assets/144246517/6319bed4-9938-4d02-8dda-3c740a01fff8)
 
 
-O site tem jogos como jogo dos acertos, jogo da velha, jogo da forca e troca palavras. 
+O site tem jogos como jogo dos acertos, jogo da velha, jogo da forca e troca palavras. Foi criado para todas as idades se entreterem.
 
