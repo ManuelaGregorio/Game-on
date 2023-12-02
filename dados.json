@@ -1,0 +1,32 @@
+{
+    "Personagem":[
+        {
+            "img":"<img src='Imagens/stich.png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        },
+    
+        {
+            "img":"<img src='Imagens/snoopy (2).png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        },
+   
+        {
+            "img":"<img src='Imagens/moca.png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        },
+   
+        {
+            "img":"<img src='Imagens/bob.png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        },
+
+        {
+            "img":"<img src='Imagens/animal.png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        },
+        {
+            "img":"<img src='Imagens/animal2.png' >",
+            "jogar":"<a href='parte3.html'>jogar</a>"
+        }
+    ]
+}

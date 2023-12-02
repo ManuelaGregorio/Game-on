@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="selecao.js"></script>
+    <title>Seu personagem</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+       <nav>
+        <div class="logo"><img src="Imagens/logo.png" alt=""></div>
+        <div class="links">
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jogos.html">Como Jogar?</a></li>
+            <li><a href="selecao.html">Seu personagem</a></li>
+        </ul>  
+        </div>
+        <div class="btn">
+            <button href="#" class="login">Login</button>
+        </div>
+    </nav>
+    <!-- Fim do cabeçalho -->
+    <br><br>
+    <h1>SEU PERSONAGEM</h1>
+    <img src="Imagens/preto.jpg" alt="">
+    <main>
+
+
+      <div id="selecao-personagem">
+          
+          <br>
+          <nav>
+              <div class="avatar">
+                  <a href="#" onclick="DadosPersonagem(0)">
+                      <img src="Imagens/stich.png" alt="">
+                  </a>
+              </div>
+              <div class="avatar">
+                  <a href="#" onclick="DadosPersonagem(1)">
+                      <img src="Imagens/snoopy (2).png" alt="">
+                  </a>
+              </div>
+              <div class="avatar">
+                  <a href="#" onclick="DadosPersonagem(2)">
+                      <img src="Imagens/moca.png" alt="">
+                  </a>
+              </div>
+              <div class="avatar">
+                  <a href="#" onclick="DadosPersonagem(3)">
+                      <img src="Imagens/bob.png" alt="">
+                  </a>
+              </div>
+              <div class="avatar">
+                  <a href="#" onclick="DadosPersonagem(4)">
+                      <img src="Imagens/animal.png" alt="">
+                  </a>
+              </div>
+              <div class="avatar">
+                <a href="#" onclick="DadosPersonagem(5)">
+                    <img src="Imagens/animal2.png" alt="">
+
+                </a>
+            </div>
+          </nav>
+      </div>
+      <br><br><br><br>
+      <div id="resultado" >
+          <div id="conteudo-img"></div>
+          <div id="conteudo"></div>
+      </div>
+  
+
+      <div class="containerp">
+        <button class="glow-on-hover" type="button">SELECIONAR</button>
+      </div>
+      <br><br>
+      <img src="Imagens/preto.jpg" alt="">
+     </main>
+     <!-- Acessibilidade -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget();
+      </script>
+
+    <!-- Fim da acessibilidade -->
+    <!-- Começo do rodapé -->
+    <footer>
+    <br><br><p></p>
+    <div class="rp">
+      <div class="rodape">
+        <div class="footer-logo">
+            <img src="Imagens/logo2.png" alt="Logo da Empresa">
+        </div>
+      </div>
+    </div>
+    <div class="footer-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+  </footer>
+    <!-- Fim do rodapé -->
+    <div class="site">
+      <p>Site criado por Manuela Gregorio Siqueira</p>
+    </div>
+    
+</body>
+</html>

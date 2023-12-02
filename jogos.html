@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <nav>
+        <div class="logo"><img src="Imagens/logo.png" alt=""></div>
+        <div class="links">
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jogos.html">Como Jogar?</a></li>
+            <li><a href="selecao.html">Seu personagem</a></li>
+        </ul>  
+        </div>
+        <div class="btn">
+            <button href="#" class="login">Login</button>
+        </div>
+    </nav>
+    <!-- Fim do cabeçalho -->
+    <br><br>
+    <h1>JOGOS</h1>
+    <br><br><br><br>
+    <img src="Imagens/preto.jpg" alt="">
+    <div class="containerr">
+        
+
+
+        <div class="cardb">
+            <div class="card2b">
+                <br><br>
+                <img src="Imagens/Jogo.png" alt=""><br><br>
+                <p>Você precisa achar os pares das palavras, se achar todos os pares você ganha o jogo.</p>
+                <br><br>
+                <div class="botao"><button onclick="startGame('jogo_do_acertos')">JOGAR</button></div>
+            </div>
+        </div>
+            <div class="cardb">
+                <div class="card2b">
+                    <br><br>
+                    <img src="Imagens/palavras.png" alt=""><br><br>
+                    <p>Nesse jogo você pode mudar os nomes de músicas famosas, trocando qualquer palavra.</p>
+                    <br><br>
+                    <div class="botao"><button onclick="startGame('troca_palavras')">JOGAR</button></div>
+                </div>
+            </div>
+            <div class="cardb">
+                <div class="card2b">
+                    <br><br>
+                    <img src="Imagens/jogo2.png"><br><br>
+                    <p>Participam duas pessoas, que jogam alternadamente, preenchendo cada um dos espaços vazios.</p>
+                    <br>
+                    <div class="botao"><button onclick="startGame('jogo_da_velha')">JOGAR</button></div>
+                </div>
+            </div>
+            <div class="cardb">
+                
+            <div class="card2b">
+            <br><br>
+            <img src="Imagens/jogo3.png"><br><br>
+            <p>O jogador tem que acertar qual é a palavra proposta. A cada letra errada, é desenhado uma parte do corpo do enforcado.</p>
+            <br>
+            <div class="botao"><button onclick="startGame('jogo_da_forca')">JOGAR</button></div>
+            </div>
+            </div>
+
+
+
+           
+        </div>
+    </div> 
+
+
+    <!-- Acessibilidade -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget();
+      </script>
+
+    <!-- Fim da acessibilidade -->
+    </main>
+    <!-- Começo do rodapé -->
+    <br><br><p></p>
+  <footer>
+    <br><br><p></p>
+    <div class="rp">
+      <div class="rodape">
+        <div class="footer-logo">
+            <img src="Imagens/logo2.png" alt="Logo da Empresa">
+        </div>
+      </div>
+    </div>
+    <div class="footer-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+  </footer>
+    <!-- Fim do rodapé -->
+    <div class="site">
+        <p>Site criado por Manuela Gregorio Siqueira</p>
+    </div>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

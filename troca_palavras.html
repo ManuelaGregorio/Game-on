@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Troca Palavras</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+     <!-- Cabeçalho -->
+     <nav>
+        <div class="logo"><img src="Imagens/logo.png" alt=""></div>
+        <div class="links">
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jogos.html">Como Jogar?</a></li>
+            <li><a href="selecao.html">Seu personagem</a></li>
+        </ul>  
+        </div>
+        <div class="btn">
+            <button href="#" class="login">Login</button>
+        </div>
+    </nav>
+
+    <!-- Fim do cabeçalho -->
+
+    <!-- Começo do troca palavras -->
+        <br>
+        <h1>TROCA PALAVRAS</h1>
+    
+        <div class="caixa">
+            <h3>Digite uma palavra para criar sua versão do filme:</h3>
+            <br>
+            <input id="palavra" type="text" placeholder="Digite sua palavra" >
+            <br>
+            <br>
+            <a href="#" class="button" onclick="TrocaPalavra()">Trocar</a>
+            <p></p>
+        </div>
+        
+        <main>
+            <br><br><br>
+            <div class="cards">
+
+                  <div class="cardw">
+                    <img src="Imagens/ipanema.png" alt="Imagem do Card">
+                    <p>Garota de <strong id="palavra1">ipanema</strong></p> 
+                </div>
+
+                <div class="cardw">
+                    <img src="Imagens/raul.jpeg" alt="Imagem do Card">
+                    <p>Metamorfose <strong id="palavra2">ambulante</strong></p>
+                </div>
+
+        
+               <div class="cardw">
+                    <img src="Imagens/pais.jpg" alt="">
+                    <p>País <strong id="palavra3">tropical</strong></p>
+               </div>
+                
+                <div class="cardw">
+                    <img src="Imagens/medo.jpg" alt="">
+                    <p>Amiga da minha <strong id="palavra4">mulher</strong></p>
+                </div>
+                
+                <div class="cardw">
+                    <img src="Imagens/mina.PNG" alt="">
+                    <p>Mina do <strong id="palavra5">condomínio</strong></p>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            
+        </main>
+        <!-- Fim do troca palavras -->
+         <!-- Acessibilidade -->
+        <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget();
+      </script>
+
+        <!-- Fim da acessibilidade -->
+        <!-- Começo do rodapé -->
+        <footer>
+            <br><br>
+            <div class="rp">
+              <div class="rodape">
+                <div class="footer-logo">
+                    <img src="Imagens/logo2.png" alt="Logo da Empresa">
+                </div>
+              </div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+          </footer>
+    <!-- Fim do rodapé -->
+    <div class="site">
+        <p>Site criado por Manuela Gregorio Siqueira</p>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
