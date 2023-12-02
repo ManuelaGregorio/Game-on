@@ -10,3 +10,6 @@ Um projeto realizado no segundo semestre do Curso Técnico em Desenvolvimento de
 
 O site tem jogos como jogo dos acertos, jogo da velha, jogo da forca e troca palavras. Foi criado para todas as idades se entreterem.
 
+
+
+Para a seleção dos personagens eu utilizei json-server (npx install json-server) (npm json-server dados.json).
