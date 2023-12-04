@@ -63,7 +63,7 @@ function confere() {
     //se achou uma soma (-3) é porque a bola ganhou 1Ganhou= true; iPontos0++;
     if(Soma [i]==-3){
     lGanhou= true;
-    sResposta = "Bolinha ganhou!";
+    sResposta = "BOLINHA GANHOU!";
     iPontosO++;
     document.getElementById("bola").innerHTML = "PONTOS O: " + iPontosO;
     break;
@@ -71,14 +71,14 @@ function confere() {
     //se achou uma soma (3) é porque o xis ganhou
     }else if(Soma[i] == 3){
         lGanhou = true;
-        sResposta = "Xis ganhou!";
+        sResposta = "XIS GANHOU!";
         iPontosX++;
     document.getElementById("xis").innerHTML = "PONTOS X: " + iPontosX;
     }
 }
 //se a bola e nem xis ganharam, mas o jogo acabou, é porquê deu velha
 if(lGanhou == false && lAcabou == true) {   
-        sResposta = "Deu velha!";
+        sResposta = "DEU VELHA!";
         iPontosV++
         document.getElementById("velha").innerHTML = "VELHA...: " + iPontosV;
 }
@@ -94,7 +94,6 @@ if(lGanhou || lAcabou) {
     //muda cor da letra
     document.getElementById("resposta").style.color = "#1E62D0";
     //window.confirm(sResposta)
-    document.getElementById("resposta").style.fontFamily = 'Poppins, sans serif';
     }
 }
 /****************************************************************/
@@ -111,7 +110,7 @@ function recomeca() {
         document.getElementById("resposta").innerHTML = "RESULTADO:"
         document.getElementById("resposta").style.color = "#1E62D0";
         document.getElementById("resposta").style.fontSize = "20px";
-        document.getElementById("resposta").style.fontFamily = 'Poppins, sans serif';
+    
 
         //restaura os 9 das casas
         casas[i] = 9;

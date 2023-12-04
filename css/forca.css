@@ -68,8 +68,6 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    position: fixed;
-    
 }
 
 .footer-container {
@@ -137,6 +135,7 @@ h1{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 #forma img{
     width: 55%;
@@ -150,6 +149,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 20px ; text-transform: uppercase;
     color: #fff;
+    margin-left: 220px;
     
 }
 #tentativa{
@@ -159,7 +159,7 @@ h1{
     text-align: center;
 }
 #tenta{
-    margin-left: 5px;
+    margin-left: 250px;
     text-align: center;
     font-size: 20px;
     color: black;
